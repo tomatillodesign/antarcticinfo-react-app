@@ -2,23 +2,21 @@
   "name": "antarctic-info",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tomatillodesign.github.io/antarcticinfo-react-app",
+  "homepage": "https://tomatillodesign.github.io/antarcticinfo-react-app/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "devDependencies": {
-       "gh-pages": "^1.1.0"
- },
   "eslintConfig": {
     "extends": "react-app"
   },
